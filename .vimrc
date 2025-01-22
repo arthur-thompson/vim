@@ -31,3 +31,6 @@ nnoremap <Space> <Nop>
 nmap <Space> <Leader>
 nmap <Leader>f :FZF<CR>
 nmap <Leader>t :let $VIM_DIR=expand('%:p:h')<CR>:terminal<CR>cd $VIM_DIR<CR>
+nmap <Leader>d :bd<CR>
+nmap <Leader>n :bnext<CR>
+
