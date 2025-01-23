@@ -6,12 +6,11 @@ set incsearch
 set ignorecase
 set smartcase
 set hlsearch
-set wildmenu
-set wildmode=list:longest
+set wildmenu wildoptions=pum
+set wildmode=longest:list,full
 set undofile
 set mouse=a
 set clipboard=unnamedplus
-set background=light
 colorscheme zellner
 source /usr/share/doc/fzf/examples/fzf.vim
 
